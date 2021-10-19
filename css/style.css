@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    line-height:24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Andada Pro', serif;
+
+}
+a, a:hover{
+    text-decoration:none;
+}
+/* header section start from here */
+.header{
+    width:100%;
+}
+.header .navbar .form-div .form-control{
+    width:300px;
+    border-radius:30px;
+}
+.form-div .fa{
+    margin-left:-30px;
+    color:#ced4da;
+}
+/* carousel section */
+.carousel{
+    width:100%;
+    margin:150px 0px;
+    background:#feeae9;
+    
+}
+.carousel .carousel-item{
+    padding:40px;
+}
+.carousel .carousel-item h2{
+    font-size:40px;
+    font-weight:700;
+    color:#1f1f1f;
+}
+.carousel .carousel-item  p{
+    font-size:18px;
+    color:#707070;
+}
+.carousel .carousel-item  h3{
+    font-size:40px;
+    color:#FF136F;
+    font-weight:700;
+}
+.carousel .carousel-item .btn{
+    border:1px solid #FF136F;
+    background:#FF136F;
+    padding:10px 20px;
+    color:#fff;
+    font-weight:500;
+}
+.carousel .carousel-item .carousel-img{
+    width:400px;
+    height:400px;
+}
+/* header section ends from here */
+
+/* categories section start from here */
+.categories{
+    width:100%;
+}
+.categories .cat-head{
+    font-size:40px;
+    color:#1f1f1f;
+    font-weight:700;
+}
+.categories .inner-cat{
+    margin-top:70px;
+    justify-content:space-between;
+    
+    
+}
+
+.categories .cat-1{
+    width:350px;
+    background:linear-gradient(100deg, #FF9C35, #FFD019);
+    padding:10px 0px;
+    border-radius:10px;
+    
+}
+
+.categories .inner-inner-cat h2{
+    color:#fff;
+    font-size:40px;
+    font-weight:700;
+}
+.categories .cat-img-img{
+    width:100px;
+}
+.categories .cat-2{
+    width:350px;
+    background:linear-gradient(100deg, #FF589B, #FF136F);
+    padding:10px 0px;
+    border-radius:10px;
+}
+.categories .cat-3{
+    width:350px;
+    background:linear-gradient(100deg, #4289FF, #3F07F8);
+    padding:10px 0px;
+    border-radius:10px;
+}
+
+/* categories section ends from here */
+
+/* shoe section start from here */
+.shoe{
+    width:100%;
+    margin:100px 0px;
+}
+.shoe .text-end{
+    color:#ff9d00;
+}
+.shoe .card-group{
+    margin-top:50px;
+}
+.shoe .card-group .card{
+    border:none !important;
+    box-shadow:10px 10px 30px #ccc;
+    padding:20px;
+    margin:10px;
+}
+.card-group .card .card-title{
+    font-size:22px;
+    font-weight:500;
+    color:#1f1f1f;
+}
+.card-group .card .card-text{
+    color:#707070;
+}
+.card-group .card .btn{
+    border:1px solid #000;
+    background:#000;
+    color:#fff;
+}
+/* shoe section ends from here */
+
+/* backpack section start from here */
+.backpack{
+    width:100%;
+    margin:100px 0px;
+}
+.backpack .text-end{
+    color:#ff9d00;
+}
+.backpack .card-group{
+    margin-top:50px;
+}
+.backpack .card-group .card{
+    border:none !important;
+    box-shadow:10px 10px 30px #ccc;
+    padding:20px;
+    margin:10px;
+}
+.card-group .card .card-title{
+    font-size:22px;
+    font-weight:500;
+    color:#1f1f1f;
+}
+.card-group .card .card-text{
+    color:#707070;
+}
+.card-group .card .btn{
+    border:1px solid #000;
+    background:#000;
+    color:#fff;
+}
+/* backpack section ends from here */
+
+/* contatc section start from here */
+.contact{
+    width:100%;
+   
+}
+.contact .inner-contact{
+    background:#feeae9;
+    padding:50px 0px;
+}
+.inner-contact .inner-contact-inner{
+    width:45%;
+    margin:10px auto;
+}
+.inner-contact-inner h2{
+    font-size:30px;
+    font-weight:500;
+    color:#191919;
+}
+.inner-contact-inner p{
+    color:#707070;
+}
+.inner-contact-inner input{
+    width:70%;
+    background:#fff;
+    border:1px solid #fff;
+    padding:6px 20px;
+}
+.inner-contact-inner .btn{
+    border:1px solid #FF136F;
+    background:#FF136F;
+    width:100px;
+    color:#fff;
+    border-radius:0px;
+
+}
+
+/* contatc section ends from here */

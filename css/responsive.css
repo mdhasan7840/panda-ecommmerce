@@ -1,0 +1,158 @@
+/* =========Responsive section start from here====== */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS */
+    /* header section */
+    .navbar-light .navbar-brand img{
+        width:100px;
+    }
+    .header .navbar .form-div .form-control{
+        width:100% !important;
+        margin:20px 0px;
+    }
+    .carousel{
+        margin:100px 0px 50 !important;
+    }
+    .carousel .carousel-item{
+        padding:15px !important;
+    }
+    .carousel .carousel-item h2{
+        font-size:25px !important;
+    }
+    .carousel .carousel-item p{
+        font-size:12px !important;
+    }
+    .carousel .carousel-item{
+        text-align:center;
+    }
+    .carousel .carousel-item .carousel-img{
+        width:150px !important;
+        height:150px !important;
+        margin-top:30px;
+    }
+    /* categories section */
+    .categories{
+        margin:60px 0px !important;
+    }
+    .categories .cat-head{
+        font-size:30px !important;
+    }
+    .categories .cat-1{
+        width:90% !important;
+        margin:10px auto;
+    }
+    .categories .cat-2{
+        width:90% !important;
+        margin:10px auto;
+    }
+    .categories .cat-3{
+        width:90% !important;
+        margin:10px auto;
+    }
+    /* contatc section */
+    .inner-contact .inner-contact-inner{
+        width:90% !important;
+    }
+    .inner-contact-inner h2{
+        font-size:23px !important;
+    }
+    .inner-contact-inner input{
+        width: 85% !important;
+    }
+    /* code ends here */
+  }
+
+/* ====================== */
+/* ====================== */
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    /* header */
+    .carousel .carousel-item{
+        text-align:center;
+    }
+    .carousel .carousel-item .carousel-img{
+        width:250px !important;
+        height:250px !important;
+        margin-top:30px;
+    }
+    /* category section */
+    .categories .cat-1{
+        width:80% !important;
+        margin:10px auto;
+    }
+    .categories .cat-2{
+        width:80% !important;
+        margin:10px auto;
+    }
+    .categories .cat-3{
+        width:80% !important;
+        margin:10px auto;
+    }
+    /* contact section */
+    .inner-contact .inner-contact-inner{
+        width:90% !important;
+    }
+    .inner-contact-inner h2{
+        font-size:30px !important;
+    }
+    .inner-contact-inner input{
+        width: 85% !important;
+    }
+    
+
+    /* code ends here */
+  }
+  /* ==================== */
+  /* ==================== */
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    /* CSS */
+    /* header section */
+    .header .navbar .form-div .form-control{
+        margin:20px;
+    }
+    .form-div .fa{
+        margin-left:-50px !important;
+    } 
+    .carousel .carousel-item h2{
+        font-size:30px !important;
+    }
+    .carousel .carousel-item .carousel-img{
+        width:300px !important;
+        height:300px !important;
+    }
+    /* category section*/
+    .categories .cat-3{
+        margin-top:10px;
+    }
+    .card-body{
+        padding:10px 5px !important;
+    }
+    .card-group .card .card-title{
+        font-size:16px !important;
+    }
+    /* contact section */
+    .inner-contact .inner-contact-inner{
+        width: 90% !important;
+    }
+    
+
+
+    /* code ends here */
+  }
